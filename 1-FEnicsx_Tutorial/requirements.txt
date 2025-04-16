@@ -1,0 +1,9 @@
+numpy
+jupyter
+imageio
+gmsh
+PyYAML
+petsc4py
+mpi4py
+matplotlib
+pyvista
