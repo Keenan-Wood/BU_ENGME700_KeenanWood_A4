@@ -9,6 +9,14 @@
 
 ---
 
+### Note - Work In Progress (Incomplete)
+
+Apologies, part a has been adapted from assignment 3 to use FenicsX instead of fea, but is presenting errors (help or advice would be appreciated). Parts b and c have not yet been adapted to use FenicsX.
+
+Any comments are more than welcome - thanks!
+
+---
+
 ### Table of Contents
 * [Conda environment, installation, and testing](#install)
 
@@ -18,15 +26,18 @@
 
 To install this package, please begin by setting up a conda environment and activating it. For example:
 ```bash
-conda create --name me700-env python=3.12
-conda activate me700-env
+conda create --name fenicsx-env python=3.12
+conda activate fenicsx-env
 ```
 
-Navigate to the project directory (./1-FEnicsx_Tutorial, for example) and create an editable install of the code:
+Navigate to the project directory (./2_Tutorials, for example) and create an editable install of the code:
 ```bash
 pip install -e .
 ```
 
 If you are using VSCode to run this code, don't forget to set VSCode virtual environment to the newly-activated environment.
 
-Open the jupyter notebook "tutorial_linear_elasticity.ipynb" for a simple fenicsx tutorial solving for linear elastic deflection and stress.
+Open the jupyter notebooks (.ipynb) for simple fenicsx tutorials demonstrating
+(a) validation with analytical results
+(b) mesh refinement effects
+(c) failure modes
