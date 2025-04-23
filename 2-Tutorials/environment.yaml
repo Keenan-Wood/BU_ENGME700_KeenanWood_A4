@@ -1,0 +1,17 @@
+# environment.yaml
+
+name: fenicsx-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.9
+  - fenics-dolfinx 
+  - mpich 
+  - pyvista
+
+  - mpi4py
+  - openmpi
+#  - mpich=4.2.2
+  - pip
+  - pip:
+    - -r requirements.txt
