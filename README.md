@@ -9,14 +9,6 @@
 
 ---
 
-### Note - Work In Progress (Incomplete)
-
-Apologies, part a has been adapted from assignment 3 to use FenicsX instead of fea, but is presenting errors (help or advice would be appreciated). Parts b and c have not yet been adapted to use FenicsX.
-
-Any comments are more than welcome - thanks!
-
----
-
 ### Table of Contents
 * [Conda environment, installation, and testing](#install)
 
