@@ -29,7 +29,7 @@ pip install -e .
 
 If you are using VSCode to run this code, don't forget to set VSCode virtual environment to the newly-activated environment.
 
-Open the jupyter notebooks (.ipynb) for simple fenicsx tutorials demonstrating
-(a) validation with analytical results
-(b) mesh refinement effects
-(c) failure modes
+Open the jupyter notebooks (.ipynb) for simple fenicsx tutorials demonstrating:
+(a-analytical_comparison.ipynb) validation with analytical results
+(b-mesh_refinement.ipynb) mesh refinement effects
+(c-code_failure.ipynb) failure modes
